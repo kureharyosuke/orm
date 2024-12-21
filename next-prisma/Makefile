@@ -5,7 +5,7 @@ up.build:
 db:
 	docker exec -it db /bin/bash
 migrate: 
-	npx prisma migrate dev --name init
+	npx prisma migrate dev 
 format:
 	npx prisma format
 studio:  
